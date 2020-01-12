@@ -1,6 +1,6 @@
 {
   "name": "gh-profile",
-  "homepage": "./profile",
+  "homepage": "https://perrycyl.github.io/profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

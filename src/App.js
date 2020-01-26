@@ -1,7 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components"
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
 
+const Boo = styled.div`
+  color: red;
+`
 function App() {
   return (
     <div className="App">
@@ -19,8 +23,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Boo> HELLO WORLD </Boo>
     </div>
   );
 }
 
-export default App;
+export default App
